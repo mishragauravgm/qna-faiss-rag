@@ -1,11 +1,8 @@
-# qna-faiss-rag
-
-```markdown
 # Document Querying using RAG, FAISS and LangChain
 
 ## Overview
 
-This project utilizes OpenAI's language models, Langchain, and Faiss for semantic search to create a custom summarization app. The app is designed to answer questions from any PDF document through a combination of semantic search and retrieval augmented generation (RAG).
+This project utilizes OpenAI's/HF's language models, Langchain, and Faiss for semantic search to create a custom summarization app. The app is designed to answer questions from any PDF document through a combination of semantic search and retrieval augmented generation (RAG).
 
 ## Dependencies
 
@@ -34,6 +31,7 @@ cd qna-faiss-rag
 
 ```bash
 OPENAI_API_KEY=your-api-key
+HF_KEY=your-hf-key
 ```
 
 3. Run the application:
@@ -59,8 +57,3 @@ The main components of the project include:
 
 - **RAG (Retrieval Augmented Generation):** Utilizes Faiss for semantic search and the Hugging Face model repository for language models.
 - **Faiss:** A library for efficient similarity search and clustering of dense vectors.
-
-Feel free to explore and customize the code for your specific use case.
-```
-
-Make sure to replace "your-username" and "your-repo" with your GitHub username and the repository name, respectively. Adjust the project structure section based on the actual structure of your project.
